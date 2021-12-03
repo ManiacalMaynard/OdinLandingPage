@@ -4,72 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Odin Landing Page</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>Landing Page from Image Project</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
 
-    <nav>
-        <div class="content">
-            <h2>LOGO</h2>
-            <div>
-                <a href="#">ONE</a>
-                <a href="#">TWO</a>
-                <a href="#">THREE</a>
 
+    <nav class="darksection">
+        <div class="navblock">
+            <div><h2>Meet Jackie!</h2></div>
+            <div>
+                <a href="https://en.wikipedia.org/wiki/Jackie_Robinson" target="_blank" alt="Link to Wikipedia">WIKI</a>
+                <a href="https://www.theodinproject.com/" target="_blank" alt="Link to The Odin Project">ODIN</a>
+                <a href="https://github.com/ManiacalMaynard" target="_blank" alt="Link to Maynard">MAYNARD</a>
             </div>
         </div>
     </nav>
 
-    <section>
-        <div class="content">
-            <div>
-                <h1>This website is awesome</h1>
-                <p>Seriously, how did we know this would be so cool?</p>
-                <button>Button</button>
+    <section class="darksection">
+        <div class="introblock">
+            <div class="introtext">
+                <div>An American Hero</div>
+                <h1>Jackie Robinson</h1>
+                <div>
+                    As part of <a href="https://www.theodinproject.com" target="_blank">The Odin Project</a>, there is a project to build a landing page with multiple different elements from a static image layout. Once I had completed the project to specifications I decided to make it a fan page and this is the result. Really fun to do and learned quite a lot as I hadn't really built a site directly from an image specification before.
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Jackie_Robinson" target="_blank" alt="Link to Wikipedia"><button>Wiki!</button></a>
             </div>
-            <div>
-                Placeholder for image
+            <div class="introimage">
+                <img src="./800px-Jackie_Robinson_1950.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="infoblock">
+            <h3>Some key professional moments:</h3>
+            <div class="infoboxcontainer">
+                <div class="infocard">
+                    <div class="infobox">
+                        <img src="./Jackie_robinson_ucla_track.jpg" alt="">
+                    </div>
+                    <div>Robinson doing the long jump for UCLA</div>
+                </div>
+                <div class="infocard">
+                    <div class="infobox">
+                        <img src="./Jackie_Robinson_Kansas_City_Monarchs.jpg" alt="">
+                    </div>
+                    <div>Robinson during his stint in the Negro leagues with the Kansas City Monarchs</div>
+                </div>
+                <div class="infocard">
+                    <div class="infobox">
+                        <img src="./800px-Jackie_Robinson_a211368-v8.jpg" alt="">
+                    </div>
+                    <div>Robinson (holding bats) playing in Montreal</div>
+                </div>
+                <div class="infocard">
+                    <div class="infobox">
+                        <img src="./Jackie_robinson_abc_sports_announcer_1965.jpg" alt="Robinson as an ABC sports announcer, 1965">
+                    </div>
+                    <div>Robinson as an ABC sports announcer, 1965</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="content">
-            <h3>
-                Some Random Information
-            </h3>
-            <div class="content">
-                <div>one</div>
-                <div>two</div>
-                <div>three</div>
-                <div>four</div>
+    <section class="quotesection">
+        <div class="quoteblock">
+            <div class="quotetext">
+                "I'm not concerned with your liking or disliking me... all I ask is that you respect me as a human being."
+            </div>
+            <div class="quoteauthor">
+                - Jackie Robinson
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="content">
-                <p>
-                    This is an inspiring quote!
-                </p>
-                <p> <strong>- Odin</strong> </p>
-        </div>
-    </section>
 
     <section>
-        <div>
-            <div>
-                Call to action with button deally
-                <button>I am a button</button>
+        <div class="actionblock">
+            <div class="actiontext">
+                <strong>Want to learn more?</strong>
+                <br />
+                Head over the Wikipedia article and learn all about this incredible human being. From his struggles with racism to his triumphs as a player, family man, and American Hero.
             </div>
+            <a href="https://en.wikipedia.org/wiki/Jackie_Robinson" target="_blank" alt="Link to Wikipedia"><button>Wiki!</button></a>
+
+
         </div>
     </section>
 
-    <footer>
-        Copyright Information and Connect Link
+    <footer class="darksection">
+        <div class="footerblock">
+            This page is a learning project by Maynard at maniacalindustries.com and makes no claim to copyright.
+        </div>
     </footer>
-    
+
 </body>
 </html>
